@@ -7,7 +7,7 @@ function Footer() {
                 <div className="flex gap-1 text-primary-300 flex justify-center">
                     <a href="mailto:qiqihe.da@gmail.com" className="hover:text-primary-200">Email</a> / 
                     <a href="https://www.linkedin.com/in/qiqihe/" target="_blank" className="hover:text-primary-200">LinkedIn</a> /
-                    <a href="https://github.com/qiqihe" target="_blank" className="hover:text-primary-200">GitHub</a> 
+                    <a href="https://github.com/kikihe" target="_blank" className="hover:text-primary-200">GitHub</a> 
                 </div>
                 <p className="flex text-primary-300 footer-text">
                     © 2024 Kiki He All Rights Reserved
