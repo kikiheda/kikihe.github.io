@@ -1,181 +1,57 @@
-<h2>Source code is from Scarlett Hong</h2>: https://github.com/honghong1012/Portfolio
+
+ 
 # Portfolio ⚡️ 
 
-## A minimal portfolio template for Developers!
+## Introduction
 
-<h2 align="center">
-  <img src="./examples/example.gif" alt="Hong's portfolio" width="600px" />
-  <br>
-</h2>
+Hello! I'm Kiki, an analyst specializing in business intelligence with 5 yeras of experience. This portfolio is a curated collection of my work that showcases my skills and projects. Thank you for taking the time to explore my work.
 
-## Features
+## About Me
 
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout for most of the content\
-⚡️ Clear navigation on different sections\
-⚡️ Styled with Tailwind CSS + Bootstrap + Custom SCSS\
-⚡️ Fully Responsive
+I'm a data analyst and also a self-motivated front-end engineer aiming to build scalable, cross-browser compatible, performant, and responsive websites with interesting results from analytic projects.
 
 
-To view the demo: **[click here](https://www.scarletthong.top/)**
+## Projects
 
----
+This section highlights some of the projects I've worked on. Each project includes a brief description, my role, the technologies used, and any notable achievements.
 
-## Getting Started 🚀
+### Project 1: [Project Name]
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Project 2: [Project Name]
 
-### Prerequisites 📋
+## Work Experience
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
+### BI Analyst - Lyft
 
-```
-node@v14.21.2 or higher
-npm@6.14.1 or higher
-git@2.32.0 or higher
-```
+- **Duration**: [Start Date] - [End Date]
+- **Responsibilities**: [Brief description of your responsibilities]
+- **Achievements**: [Notable achievements during this period]
 
 
 
----
+## Education
 
-## How To Use 🔧
+### Master of Information - University of Toronto
 
-From your command line, first clone Simplefolio:
+- **Duration**: [Start Date] - [End Date]
+- **Major/Concentration**: Human-Centered Data Science
 
-```bash
-# Clone the repository
-$ git clone https://github.com/honghong1012/Portfolio.git
 
-# Move into the repository
-$ cd Portfolio
 
-# Remove the current origin repository
-$ git remote remove origin
-```
+## Contact
 
-After that, you can install the dependencies using NPM.
+I'm always open to discussing new opportunities, collaborations, or just to connect and share ideas. Feel free to reach out to me through any of the following channels:
 
-Using NPM: Simply run the below commands.
+- **Email**: qiqihe.da@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/qiqihe/
+- **GitHub**: https://github.com/kikiheda/
 
-```bash
-# Install dependencies
-$ npm install
-
-# Start the development server
-$ npm run dev
-```
-
-**NOTE**:
-If your run into issues installing the dependencies with NPM, use this below command:
-
-```bash
-# Install dependencies with all permissions
-$ sudo npm install --unsafe-perm=true --allow-root
-```
-
-Once your server has started, go to this url `http://localhost:3000/` to see the portfolio locally. It should look like the below screenshot.
-
-<h2 align="center">
-  <img src="./examples/example1.png" alt="Simplefolio" width="100%">
-</h2>
+Thank you for visiting my portfolio. I look forward to the possibility of working together and contributing to exciting projects!
 
 ---
 
-## Template Instructions:
+Remember to customize each section with your information and details. A well-documented README for your portfolio can make a strong impression and serve as an effective introduction to your professional persona.
 
-### Step 1 - STRUCTURE
-
-For the portfolio is built on Next.js, first go to `/components` and take a look at that:
-
-### (1) Navigation Bar
-Navigation bar consists of icons, nav tabs and drop down components for responsive design.
-- On `.navbar-icon`, you can put your custom portfolio icon.
-
-```javascript
-function Navbar() {
-    return (
-        <div className="navigation-bar">
-            <div className="mx-auto w-11/12 max-w-7xl pt-6 flex items-center justify-between">
-                <div className="sduration-300 hover:-translate-y-1 hover:cursor-pointer sm:inline-block">
-                    <span className="navbar-icon"><a href="/">Scarlett H.</a></span>
-                </div>
-                <NavItems />
-                <Dropdown />
-            </div>
-        </div>
-    );
-}
-```
-
-### (2) First Section
-
-The FirstSection component is mainly the component we see when we open the website.
-
-- In `<TypeWriter />`, you can configure different typewriter effect by options, [Click Here](https://github.com/tameemsafi/typewriterjs).
-- On `<p>` tag, you can change the slogan on the main page.
-- On `<a>` tag, you can change the href to your own social media link.
-
-```javascript
-function FirstSection() {
-    return (
-        <section id="home" className="min-h-screen">
-            <main className="calc-height flex w-full items-center py-20">
-                <div className="mx-auto flex w-11/12 max-w-7xl items-center justify-between gap-20">
-                    <div className="flex w-full cursor-default flex-col gap-3">
-                        <div className="hide text-2xl md:text-2xl lg:text-4xl 2xl:text-6xl text-primary-200">
-                        <Typewriter
-                            options={{
-                                strings: ['Hey there', '你好','안녕하세요'],
-                                autoStart: true,
-                                loop: true,
-                            }}
-                        />
-                        </div>
-                        <div className="hide title-name font-bold text-primary-100">
-                            <div>Scarlett</div>
-                            <div>Hong</div>
-                        </div>
-                        <p className="hide delay slogan-title italic text-primary-300">
-                            A Passionate Front-End Developer
-                        </p>
-                        <p className="hide delay slogan-title-down italic text-primary-300">
-                            A Self-Taught Full-Stack Developer
-                        </p>
-                        <p className="hide delay text-justify introduction font-semibold text-primary-300">
-                            I'm a front-end developer and also a self-motivated full-stack
-                            engineer building scalable, cross-browser compatible,
-                            performant, and responsive websites.
-                            Feel free to take a look at my latest projects a little
-                            bit below this page. 
-                        </p>
-                        <h2 className="hide contact-text text-primary-100">
-                            <a href="mailto:honghonghh1012@gmail.com"><Image src={Gmail}/> Gmail</a> / {" "}
-                            <a href="https://www.linkedin.com/in/hong-hong-7b283321b/" target="_blank"><Image src={Linkedin}/> LinkedIn</a> / {" "}
-                            <a href="https://github.com/honghong1012" target="_blank"><Image src={Github}/> GitHub</a> / {" "}
-                            <a href="https://www.instagram.com/scarlett_hong1012/" target="_blank"><Image src={Instagram}/> Instagram </a>  
-                        </h2>
-                    </div>
-                </div>
-            </main>
-        </section>
-    );
-}
-```
-
-
-### Step 2 - STYLES
-
-- You can utilize the detailed style by using Tailwind CSS in every element's class. 
-- Or you can also go into `/styles/global.css` to customize the your desired styles.
-
----
-
-## Deployment 📦
-
-Once you finish your setup. You need to put your website online!
-
-I highly recommend to use [Vercel](https://vercel.com) because it is super easy.
 
 ## Technologies used 🛠️
 - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Frontend component library
@@ -183,6 +59,6 @@ I highly recommend to use [Vercel](https://vercel.com) because it is super easy.
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 
-## Authors
+## Author
 
-- **Hong Hong** - [honghong1012](https://github.com/honghong1012)
+- **Hong Hong** - [honghong1012](https://github.com/honghong1012) (Go checkout her repo if you like her template!)
