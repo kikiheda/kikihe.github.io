@@ -1,4 +1,4 @@
-<h1>Source code is from Scarlett Hong</h1>: https://github.com/honghong1012/Portfolio
+<h2>Source code is from Scarlett Hong</h2>: https://github.com/honghong1012/Portfolio
 # Portfolio ⚡️ 
 
 ## A minimal portfolio template for Developers!
