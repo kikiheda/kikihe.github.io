@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                     type="image/x-icon"
                     href={Icon.src}
                 />
-                <title>Hong Hong</title>
+                <title>Kiki He</title>
                 <meta charSet="utf-8" />
                 <meta
                     name="viewport"
