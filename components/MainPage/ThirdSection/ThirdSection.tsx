@@ -18,7 +18,7 @@ function ThirdSection() {
                             <ProjectItems
                                 // imgId="AWS"
                                 title="Project 1"
-                                source="https://github.com/qiqihe" // TBA
+                                source="https://github.com/kikiheda/ds-projects" // TBA
                                 // resume="Resume.pdf" move this resume under About Me
                                 description={
                                     <>
@@ -36,7 +36,7 @@ function ThirdSection() {
                                 // imgId="Midea"
                                 title="Project 2"
                                 // resume="Resume.pdf"
-                                source="https://github.com/qiqihe" // TBA
+                                source="https://github.com/kikiheda/ds-projects" // TBA
                                 description={
                                     <>
                                         Description (TBA)
@@ -52,7 +52,7 @@ function ThirdSection() {
                             <ProjectItems
                                 // imgId="TickMaster"
                                 title="Project 3"
-                                source="https://github.com/qiqihe" // TBA
+                                source="https://github.com/kikiheda/ds-projects" // TBA
                                 description={
                                     <>
                                         Description (TBA)
@@ -69,28 +69,6 @@ function ThirdSection() {
                         
                         </>
                     )}
-
-                    {/* {category === "react" && (
-                        <>
-                            <ProjectItems
-                                img={img}
-                                title="Create Blog Posts"
-                                website="https://serdargokhan-blog.netlify.app/"
-                                source="https://github.com/serdargokhan/react-projects/tree/main/5-blog-website"
-                                description="I have completed this blog website. It has sign in and sign up utilities. User can sign up, sign in, and create a blog post. sign in and sign up credentials is stored on firebase real-time database. After blog post is created, it will be shown on the home page. I also experienced framer-motion library with this project."
-                                stack={
-                                    <>
-                                        <li>ReactJS</li>
-                                        <li>TailwindCSS</li>
-                                        <li>Framer-Motion</li>
-                                        <li>JavaScript</li>
-                                    </>
-                                }
-                            />
-                            
-                            
-                        </>
-                    )} */}
                 </div>
             </div>
         </section>
